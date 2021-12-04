@@ -21,7 +21,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #04AA6D;}
+ul.topnav li a.active {background-color: #519dd7;}
 
 ul.topnav li.right {float: right;}
 
@@ -66,3 +66,10 @@ ul.topnav li.right {float: right;}
   background: #ddd;
   color: black;
 }
+
+.services {
+   align-items: center;	
+   display: flex;
+   justify-content: center;
+   width: 200px;
+ }
