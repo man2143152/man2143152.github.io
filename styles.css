@@ -48,7 +48,6 @@ ul.topnav li.right {float: right;}
  .pagecontent {
   background-color: #fff; /*#DCF2EE*/;
   padding: 10px;
-  height:1263px; 
  }
  
 
@@ -57,6 +56,9 @@ ul.topnav li.right {float: right;}
   background-color: #131f2f;
   color: #ffffff;
   padding: 10px;
+  bottom: 0;
+  position:fixed;
+  width: 100%;
 }
 
 
