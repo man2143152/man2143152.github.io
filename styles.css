@@ -61,6 +61,20 @@ ul.topnav li.right {float: right;}
 
 
 /*Video on home page */
+/* Style the button used to pause/play the video */
+#quoteBtn {
+  width: 250px;
+  font-size: 22px;
+  padding: 10px;
+  border: none;
+  background: #131f2f;
+  color: #fff;
+  cursor: pointer;  
+}
+#quoteBtn:hover {
+  background: #ddd;
+  color: black;
+}
 #tintVideo {
   position: fixed;
   right: 0;
@@ -79,8 +93,7 @@ ul.topnav li.right {float: right;}
   width: 100%;
   padding: 50px;
   display: inline-block;
-  word-break: break-all;
-  
+  word-break: break-all;  
 }
 
 @media (max-width: 600px) {
@@ -94,23 +107,10 @@ ul.topnav li.right {float: right;}
 	  display: inline-block;
 	  word-wrap: break-word;
 	  white-space: nowrap;
+	}
 }
 
-/* Style the button used to pause/play the video */
-#quoteBtn {
-  width: 250px;
-  font-size: 22px;
-  padding: 10px;
-  border: none;
-  background: #131f2f;
-  color: #fff;
-  cursor: pointer;
-  
-}
-#quoteBtn:hover {
-  background: #ddd;
-  color: black;
-}
+
 /*css for about services content*/ 
 .services {
  background-color: #ddd;
