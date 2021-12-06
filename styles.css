@@ -82,6 +82,19 @@ ul.topnav li.right {float: right;}
   word-break: break-all;
   
 }
+
+@media (max-width: 600px) {
+	.videoContent {
+	  position: fixed;
+	  bottom: 0;
+	  background: rgba(0, 0, 0, 0.5);
+	  color: #f1f1f1;
+	  width: 100%;
+	  padding: 10px;
+	  display: inline-block;
+	  word-break: break-all;
+}
+
 /* Style the button used to pause/play the video */
 #quoteBtn {
   width: 250px;
@@ -152,8 +165,8 @@ ul.topnav li.right {float: right;}
 
 @media (max-width: 400px) {
    #gallery {
-    -moz-column-count:    1;
-    -webkit-column-count: 1;
-    column-count:         1;
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
    }
 }
