@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang= "en">
 	<head>
 		<!--websites name on the web tab-->
 		<title>A's Tinting</title>	
 		<!-- create a responsive website within meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--link the css style sheet-->
 		<link rel= "stylesheet" href="styles.css">
 	</head>
@@ -23,7 +23,7 @@
 
 		<!-- The video -->
 		<video autoplay muted loop id="tintVideo">
-		  <source src="videos\TintingCar.mp4" type="video/mp4">
+		  <source src="videos/TintingCar.mp4" type="video/mp4">
 		</video>
 
 		<!-- Overlay text for quote offer -->
@@ -31,12 +31,14 @@
 		  <h2>A's Window Tinting</h2>
 		  <p>We provide services for commercial, residential and vehicles.</p>
 		  <!-- Use a button to pause/play the video with JavaScript -->
-		  <a href="contact.html"><button id="quoteBtn" onclick="">Get Quote</button></a>
+		  <a href="contact.html">
+		  <button id="quoteBtn" onclick="">Get Quote</button></a>
+		</div>
+		<!--footer in its own div-->
+		<div class="footer">
+			<p>© 2021 A's Tinting. All rights reserved.</p>
 		</div>
 	</body>
-	<!--footer in its own div-->
-	<div class="footer">
-		<p>© 2021 A's Tinting. All rights reserved.</p>
-	</div>
+	
 </html>
 
