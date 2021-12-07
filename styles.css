@@ -1,10 +1,11 @@
 /*this is used to comment in css*/
-
+/*body css, along with font*/
 body {
 	margin: 0 0 100px 0;
 	font-family: arial;
 	clear: both;
 }
+/*css nav bar*/
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -14,6 +15,7 @@ ul.topnav {
   color: #ffffff;
   font-weight:bold;
 }
+/*css nav bar*/
 ul.topnav li {float: left;}
 ul.topnav li a {
   display: block;
@@ -75,10 +77,12 @@ ul.topnav li.right {float: right;}
   color: #fff;
   cursor: pointer;  
 }
+/*hovering quote btn*/
 #quoteBtn:hover {
   background: #ddd;
   color: black;
 }
+/*tint video css*/
 #tintVideo {
   position: fixed;
   right: 0;
@@ -134,17 +138,17 @@ ul.topnav li.right {float: right;}
    column-count:5;
    column-gap:5px;
 }
-
+/*css for images in portfolio*/
 #gallery img {
    width: 100% !important;
    height: auto !important;
    margin-bottom:5px; /* to match column gap */
 }
-
+/*hovering images css*/
 #gallery a:hover {
   background:#23395d;
 }
-
+/*css for images and dimensions within portfolio*/
 @media (max-width: 1200px) {
    #gallery {
     -moz-column-count:    3;
@@ -175,4 +179,8 @@ ul.topnav li.right {float: right;}
     -webkit-column-count: 2;
     column-count:         2;
    }
+}
+/*align headers to middle of page*/
+h1{
+	text-align: center;
 }
