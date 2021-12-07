@@ -1,0 +1,9 @@
+HTML and CSS are on seperate files labeled properly in lower case. Moreover, all files with information pertaining to the website can be found within the same folder.
+All pages have comments throughout and was starting to be a bit redundant so I gave more detail at first and then shortened it as I worked through it. Things such as nav bar, 
+Header and border and so forth. I have 7 pages in total including the CSS with the same nav bar and templated properly and similar to each one. They can all be found showing the header, 
+paragraph/content, footer. Website was uploaded using github and at times cache must be cleared if the website was opened beforehand and changes were made. Otherwise if I opened the page
+again it wouldn't show the changes made. Image map can be found on "services"  along with the table. Video is on the home page in the background. Form can be found on the contact page.
+I would test my code by refreshing the page after each change and at times that's how I would be able to visually see how each change I made in CSS would be displayed on the page. Validator
+<!--                                                                                  -->. Accessibility compliance felt a little out of reach so I worked towards it with what I knew. I couldn't
+implement a reading service or anything of that sort. However, I did include a number in the contact page for questions. An organized and easily readable site with colors that weren't too bothering
+and stayed away from any colors that tend to be an issue for those that are color blind.
